@@ -1,8 +1,8 @@
-=BerryConf
+= BerryConf
 
 BerryConf is a simple, lightweight, Java library for parsing configuration files.
 
-==Example
+== Example
 
 Lets say you have a configuration file:
 
