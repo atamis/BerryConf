@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package ConfigManager.error;
+package BerryConf.error;
 
 /**
  *

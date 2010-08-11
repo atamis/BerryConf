@@ -3,11 +3,11 @@
  * and open the template in the editor.
  */
 
-package ConfigManager;
+package BerryConf;
 
 
 
-import ConfigManager.error.*;
+import BerryConf.error.*;
 import java.io.*;
 import java.io.File;
 import java.io.FileInputStream;

@@ -3,10 +3,9 @@
  * and open the template in the editor.
  */
 
-package ConfigManager;
+package BerryConf;
 
-import ConfigManager.error.ConfigParserSyntaxException;
-import java.io.*;
+import BerryConf.error.ConfigParserSyntaxException;
 import java.util.*;
 
 
@@ -20,7 +19,7 @@ import java.util.*;
  * @author indigo
  */
 public class ConfigurationParser {
-    HashMap<String, String> config;
+    private HashMap<String, String> config;
 
     /**
      * Create a new configuration parser. Note that this only initializes the

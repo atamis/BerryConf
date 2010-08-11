@@ -3,9 +3,10 @@
  * and open the template in the editor.
  */
 
-package ConfigManager;
+package BerryConf;
 
-import ConfigManager.error.ConfigParserSyntaxException;
+import BerryConf.ConfigurationParser;
+import BerryConf.error.ConfigParserSyntaxException;
 import java.util.HashMap;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

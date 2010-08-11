@@ -3,8 +3,9 @@
  * and open the template in the editor.
  */
 
-package ConfigManager;
+package BerryConf;
 
+import BerryConf.Config;
 import java.util.HashMap;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
