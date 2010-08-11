@@ -1,0 +1,44 @@
+=BerryConf
+
+BerryConf is a simple, lightweight, Java library for parsing configuration files.
+
+==Example
+
+Lets say you have a configuration file:
+
+	# init.conf
+	xsize: 640; ysize: 480
+	
+	window_title: Initiation
+	
+	debug: true
+
+Using BerryConf, you can write this Java code:
+
+	import BerryConf.*;
+
+	...
+	
+	BerryConf.Config c = new Config();
+	
+	c.addConfigFile("init.conf");
+	
+	...
+	
+	String title = c.getConfig("window_title");
+	
+	int xsize = Integer.parseInt(c.getConfig("xsize"));
+	
+	
+If you don't want to deal with Config, you can directly parse config files 
+using ConfigurationParser:
+
+	ConfigurationParser cp = new ConfigurationParser();
+	
+	cp.addParse("name: BerryConf");
+	cp.addParse("home: http://github.com/indigo747/BerryConf");
+	
+	HashMap<String, String> config = cp.getConfig();
+	
+ConfigurationParser allows you to more precisely control the parsing of your 
+configuration file and to buffer the parsing correctly.
